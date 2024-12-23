@@ -16,7 +16,7 @@ function App() {
   const handleSubmittest3 = async () => {
     
   try {
-    const response = await axios.get("https://morning-refuge-53145-0fa23c113e12.herokuapp.com/api/hello");
+    const response = await axios.get("https://cryptic-atoll-42114-15550d85babb.herokuapp.com/api/hello");
     alert(response.data.message);
   
   } catch (error) {
