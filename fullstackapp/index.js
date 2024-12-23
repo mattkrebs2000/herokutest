@@ -13,7 +13,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 app.get('/api/hello', (req, res) => {
-  res.send({ message: "Hello from server!!!!" });
+  res.send({ message: "Hello from server!!!!!!!" });
 });
 
 app.listen(PORT, () => {
